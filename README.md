@@ -9,4 +9,6 @@ The implementation of these challenges follows the methodology of Test-Driven De
     - Refactoring
     - Test again until all tests pass
 
+The challenges are based on [Codewars](https://www.codewars.com/) katas.
 
+1. [Challenge 01: Jaden Casing Strings](challenge01/src)
