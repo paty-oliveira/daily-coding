@@ -13,3 +13,4 @@ The challenges are based on [Codewars](https://www.codewars.com/) katas.
 
 1. [Challenge 01: Jaden Casing Strings](challenge01/src)
 2. [Challenge 02: Detect Pangram](challenge02/src)
+3. [Challenge 03: Isograms](challenge03/src)
