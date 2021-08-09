@@ -5,4 +5,8 @@
  */
 
 public class StringConvertor {
+
+    public int toNumber(String inputNumber) {
+        return Integer.parseInt(inputNumber);
+    }
 }
