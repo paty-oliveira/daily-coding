@@ -15,3 +15,4 @@ The challenges are based on [Codewars](https://www.codewars.com/) katas.
 2. [Challenge 02: Detect Pangram](challenge02/src)
 3. [Challenge 03: Isograms](challenge03/src)
 4. [Challenge 04: Convert a String to a Number](challenge04/src)
+5. [Challenge 05: Complementary DNA](challenge05/src)
