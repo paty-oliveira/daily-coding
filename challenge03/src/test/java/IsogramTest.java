@@ -12,7 +12,7 @@ class IsogramTest {
     @Test
     void shouldReturnTrueWhenWordIsEmpty() throws Exception {
         String wordInput = "";
-        Boolean actualResult = this.isogram.isIsogram(wordInput);
+        boolean actualResult = this.isogram.isIsogram(wordInput);
 
         Assertions.assertTrue(actualResult);
     }
@@ -20,7 +20,7 @@ class IsogramTest {
     @Test
     void shouldReturnFalseWhenWordHasNumbers() {
         String wordInput = "13234";
-        Boolean actualResult = this.isogram.isIsogram(wordInput);
+        boolean actualResult = this.isogram.isIsogram(wordInput);
 
         Assertions.assertFalse(actualResult);
     }
@@ -28,7 +28,7 @@ class IsogramTest {
     @Test
     void shouldReturnTrueWhenWordHasUniqueLetters() throws Exception {
         String wordInput = "ab";
-        Boolean actualResult = this.isogram.isIsogram(wordInput);
+        boolean actualResult = this.isogram.isIsogram(wordInput);
 
         Assertions.assertTrue(actualResult);
     }
@@ -36,7 +36,7 @@ class IsogramTest {
     @Test
     void shouldReturnFalseWhenWordHasDuplicateLetters() throws Exception {
         String wordInput = "aba";
-        Boolean actualResult = this.isogram.isIsogram(wordInput);
+        boolean actualResult = this.isogram.isIsogram(wordInput);
 
         Assertions.assertFalse(actualResult);
     }
@@ -44,7 +44,7 @@ class IsogramTest {
     @Test
     void shouldReturnTrueWhenWordHasUpperAndLowerCaseLettersWithoutDuplicatedLetters() throws Exception{
         String wordInput = "Dermatoglyphics";
-        Boolean actualResult = this.isogram.isIsogram(wordInput);
+        boolean actualResult = this.isogram.isIsogram(wordInput);
 
         Assertions.assertTrue(actualResult);
     }
@@ -52,7 +52,7 @@ class IsogramTest {
     @Test
     void shouldReturnFalseWhenWordHasUniqueLettersButAlsoNumbers() throws Exception {
         String wordInput = "moO1se";
-        Boolean actualResult = this.isogram.isIsogram(wordInput);
+        boolean actualResult = this.isogram.isIsogram(wordInput);
 
         Assertions.assertFalse(actualResult);
     }

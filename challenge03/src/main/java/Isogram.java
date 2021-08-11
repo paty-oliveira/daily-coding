@@ -6,7 +6,7 @@
 
 public class Isogram {
 
-    public Boolean isIsogram(String word) {
+    public boolean isIsogram(String word) {
         return word
                 .replaceAll("[\\d]", "")
                 .chars()

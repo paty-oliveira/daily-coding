@@ -12,7 +12,7 @@ import java.util.*;
 
 public class Pangram {
 
-    public Boolean isPangram(String inputSentence) {
+    public boolean isPangram(String inputSentence) {
         return inputSentence.chars()
                 .filter(letter -> letter >= 'a' && letter <= 'z')
                 .distinct()

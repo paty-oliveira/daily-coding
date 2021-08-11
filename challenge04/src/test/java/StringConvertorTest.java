@@ -12,8 +12,8 @@ class StringConvertorTest {
     @Test
     void shouldConvertStringOneToNumberRepresentation() throws Exception {
         String inputNumber = "1";
-        Integer actualResult = this.convertor.toNumber(inputNumber);
-        Integer expectedResult = 1;
+        int actualResult = this.convertor.toNumber(inputNumber);
+        int expectedResult = 1;
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -21,8 +21,8 @@ class StringConvertorTest {
     @Test
     void shouldConvertStringOneTwoThreeFourToNumberRepresentation() throws Exception {
         String inputNumber = "1234";
-        Integer actualResult = this.convertor.toNumber(inputNumber);
-        Integer expectedResult = 1234;
+        int actualResult = this.convertor.toNumber(inputNumber);
+        int expectedResult = 1234;
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -30,8 +30,8 @@ class StringConvertorTest {
     @Test
     void shouldConvertStringWithNegativeNumberToNumberRepresentation() throws Exception {
         String inputNumber = "-9";
-        Integer actualResult = this.convertor.toNumber(inputNumber);
-        Integer expectedResult = -9;
+        int actualResult = this.convertor.toNumber(inputNumber);
+        int expectedResult = -9;
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
@@ -39,8 +39,8 @@ class StringConvertorTest {
     @Test
     void shouldConvertStringNumberToNumberRepresentation() throws Exception {
         String inputNumber = "09999";
-        Integer actualResult = this.convertor.toNumber(inputNumber);
-        Integer expectedResult = 9999;
+        int actualResult = this.convertor.toNumber(inputNumber);
+        int expectedResult = 9999;
 
         Assertions.assertEquals(expectedResult, actualResult);
     }
