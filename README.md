@@ -19,3 +19,4 @@ The challenges are based on [Codewars](https://www.codewars.com/) exercises.
 6. [Challenge 06: Sum of Numbers](challenge06/src)
 7. [Challenge 07: Lost Without a Map](challenge07/src)
 8. [Challenge 08: Two to One](challenge08/src)
+9. [Challenge 09: Basic Mathematical Operation](challenge09/src)
