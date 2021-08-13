@@ -18,3 +18,4 @@ The challenges are based on [Codewars](https://www.codewars.com/) exercises.
 5. [Challenge 05: Complementary DNA](challenge05/src)
 6. [Challenge 06: Sum of Numbers](challenge06/src)
 7. [Challenge 07: Lost Without a Map](challenge07/src)
+8. [Challenge 08: Two to One](challenge08/src)
