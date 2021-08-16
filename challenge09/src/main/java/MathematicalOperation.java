@@ -10,7 +10,18 @@
  * basicOp('*', 5, 5)         // Output: 25
  * basicOp('/', 49, 7)        // Output: 7
  *
+ * I will ignore this examples because I will implement this challenge using SOLID principles.
  */
 
-public class MathematicalOperations {
+public class MathematicalOperation {
+
+    private final Operatorable operator;
+
+    public MathematicalOperation(Operatorable mathOperator) {
+        this.operator = mathOperator;
+    }
+
+    public int compute(int number1, int number2) {
+        return this.operator.calculate(number1, number2);
+    }
 }
