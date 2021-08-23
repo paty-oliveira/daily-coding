@@ -21,3 +21,4 @@ The challenges are based on [Codewars](https://www.codewars.com/) exercises.
 8. [Challenge 08: Two to One](challenge08/src)
 9. [Challenge 09: Basic Mathematical Operation](challenge09/src)
 10. [Challenge 10: Reverse Words](challenge10/src)
+11. [Challenge 11: Sum of Digits](challenge11/src)
