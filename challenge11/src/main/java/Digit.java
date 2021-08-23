@@ -8,9 +8,21 @@
  *     16  -->  1 + 6 = 7
  *    942  -->  9 + 4 + 2 = 15  -->  1 + 5 = 6
  * 132189  -->  1 + 3 + 2 + 1 + 8 + 9 = 24  -->  2 + 4 = 6
- * 493193  -->  4 + 9 + 3 + 1 + 9 + 3 = 29  -->  2 + 9 = 11
  */
 
 
 public class Digit {
+    public int calculateDigitalRoot(int number) {
+        while (number > 9){
+            number = sumOfDigit(number);
+        }
+        return number;
+    }
+
+    private int sumOfDigit(int number) {
+        return String.valueOf(number)
+                .chars()
+                .map(Character::getNumericValue)
+                .sum();
+    }
 }
