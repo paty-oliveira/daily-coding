@@ -22,4 +22,5 @@ The challenges are based on [Codewars](https://www.codewars.com/) exercises.
 9. [Challenge 09: Basic Mathematical Operation](challenge09/src)
 10. [Challenge 10: Reverse Words](challenge10/src)
 11. [Challenge 11: Digital Root](challenge11/src)
-12. [Challenge 12: Split String](challenge12/src)
+12. [Challenge 12: Split String by Pairs](challenge12/src)
+13. [Challenge 13: Split String by Camel Casing](challenge13/src)
