@@ -25,3 +25,4 @@ The challenges are based on [Codewars](https://www.codewars.com/) exercises.
 12. [Challenge 12: Split String by Pairs](challenge12/src)
 13. [Challenge 13: Split String by Camel Casing](challenge13/src)
 14. [Challenge 14: Mount the Bowling Pins](challenge14/src)
+15. [Challenge 15: Validate Credit Card Number](challenge15/src)
