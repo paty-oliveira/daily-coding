@@ -28,3 +28,4 @@ The challenges are based on [Codewars](https://www.codewars.com/) exercises.
 15. [Challenge 15: Validate Credit Card Number](challenge15/src)
 16. [Challenge 16: Create Phone Number](challenge16/src)
 17. [Challenge 17: Array difference](challenge17/src)
+18. [Challenge 18: DNA to RNA Conversion](challenge18/src)
